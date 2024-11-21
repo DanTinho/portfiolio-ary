@@ -1,0 +1,34 @@
+header {
+    background-color: black;
+    padding: 20px 0;
+}
+
+.header {
+    text-align: center;
+}
+
+.header h1 {
+    size: 50px;
+    color: white;
+}
+
+button {
+    width: 140px;
+    height: 60px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: black;
+    padding: 20px 0;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer h1 {
+    size: 50px;
+    color: white;
+}
+
