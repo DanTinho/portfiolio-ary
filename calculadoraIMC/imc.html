@@ -9,16 +9,26 @@
 </head>
 <body>
     <header>
-        <div class="footer">
+        <div class="header">
             <h1>
                 Cálculadora IMC
             </h1>
         </div>
     </header>
     <main>
-        <button id="botao" type="button" onclick="perguntarPeso()">DIGITE SEU PESO E ALTURA</button>
+        <div class="main">
+            <h2>DIGITE SEU PESO</h2>
+            <input type="text" id="input_peso" value=''>
 
-        <p id="valorImc">IMC: </p>
+            <h2>DIGITE SUA ALTURA EM METROS</h2>
+            <input type="text" id="input_altura" value=''>
+
+            <p>
+                <button id="botao" type="button" onclick="perguntarPeso()">DIGITE SEU PESO E ALTURA</button>
+            </p>
+
+            <p id="valorImc"> </p>
+        </div>
     </main>
     <footer>
         <div class="footer">
