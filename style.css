@@ -1,5 +1,5 @@
 header {
-    background-color: black;
+    background-color: rgb(85, 31, 119);
     padding: 20px 0;
 }
 
@@ -24,15 +24,14 @@ main {
 .atividade li {
     display: inline-block;
     width: 300px;
-    height: 400px;
+    height: 290px;
     text-align: center;
     vertical-align: top;
     position: relative;
     box-sizing: border-box;
     border: 5px solid black;
     border-radius: 15px;
-    margin: auto 5%;
-    margin-bottom: 15px;
+    margin: auto 13%;
     transition: 0.5s all;
     background-color: white;
 }
@@ -42,7 +41,7 @@ main {
 }
 
 .atividade li:hover {
-    transform: scale(1.1,1.1);
+    transform: scale(1.05,1.05);
     border-color: rgb(213, 146, 255);
 }
 
@@ -69,12 +68,19 @@ main {
     margin-bottom: 1px;
     text-align: center;
     font-size: 30px;
-    color:  rgb(213, 146, 255);
+    color:  rgb(85, 31, 119);
     margin-left: 2px;
 }
 
+.fundobaixoli {
+    background-color: rgb(213, 146, 255);
+    padding: 33px 0;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
 footer {
-    background-color: black;
+    background-color: rgb(85, 31, 119);
     padding: 20px 0;
 }
 

@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculadora de Times de Basquete 3x3</title>
     <link rel="stylesheet" href="b3x3.css">
+    <script src="b3x3.js"></script>
 </head>
 <body>
     <header>
@@ -18,8 +19,11 @@
         <div class="main">
             <h3>CALCULADORA DE TIMES DE BASQUETE 3X3</h3>
             <h2>Números de inscritos</h2>
+
             <input type="text" id="input_inscritos" value=''>
-            <button id="botao" type="button" onclick="CalcularTimes()">Calcular Times</button>
+
+            <button id="botao" type="button" onclick="calcularEquipes()">Calcular Times </button>
+
             <p id="respostaTimes"> </p>
         </div>
     </main>

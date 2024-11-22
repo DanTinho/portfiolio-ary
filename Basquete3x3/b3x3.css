@@ -1,5 +1,5 @@
 header {
-    background-color: black;
+    background-color: rgb(85, 31, 119);
     padding: 20px 0;
 }
 
@@ -48,10 +48,12 @@ input {
     font-size: 15px;
 }
 
-
+.main p {
+    border-radius: 8px;
+}
 
 footer {
-    background-color: black;
+    background-color: rgb(85, 31, 119);
     padding: 20px 0;
 }
 
